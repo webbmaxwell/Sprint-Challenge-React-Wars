@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-function Data() {
-
-  const [] = useState();
-
+function Data(props) {
   return (
-    <div></div>
+    <div>
+      <p><strong>Name:</strong>{props.name}</p>
+      <p><strong>Homeworld:</strong>{props.homeworld}</p>
+    </div>
   )
 };
 

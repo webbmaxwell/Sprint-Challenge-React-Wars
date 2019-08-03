@@ -1,19 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react';
 
-function CharImg() {
-
-  const [charImg] = useState([]);
-
-  useEffect(() => {
-    axios.get("https://swapi.co/api/people/")
-      .then(res => {
-        console.log(res);
-      });
-  }, [])
+function CharImg(props) {
 
   return (
-    <img />
+    <img src={props.img} alt=""/>
   )
 };
 
