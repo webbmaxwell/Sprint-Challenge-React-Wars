@@ -5,8 +5,7 @@ function PlanImg() {
   const [] = useState();
 
   return (
-    <div>
-    </div>
+    <div></div>
   )
 };
 

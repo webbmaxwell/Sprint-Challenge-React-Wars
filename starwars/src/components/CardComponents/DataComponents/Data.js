@@ -5,8 +5,7 @@ function Data() {
   const [] = useState();
 
   return (
-    <div>
-    </div>
+    <div></div>
   )
 };
 

@@ -7,6 +7,9 @@ import PlanImg from './ImgComponents/PlanImg.js';
 function Card() {
   return (
     <div className="Card">
+      <Data />
+      <CharImg />
+      <PlanImg />
     </div>
   )
 };

@@ -6,10 +6,10 @@ function CharImg() {
   const [charImg] = useState([]);
 
   useEffect(() => {
-    axios.get('https://swapi.co/api/people/')
+    axios.get("https://swapi.co/api/people/")
       .then(res => {
         console.log(res);
-      })
+      });
   }, [])
 
   return (
