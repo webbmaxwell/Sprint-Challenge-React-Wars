@@ -3,10 +3,10 @@ import axios from 'axios';
 
 function CharImg() {
 
-  const [charImg] = useState('https://swapi.co/api/people/1/');
+  const [charImg] = useState([]);
 
   useEffect(() => {
-    axios.get('https://swapi.co/api/people?api_key=DEMO_KEY')
+    axios.get('https://swapi.co/api/people/')
       .then(res => {
         console.log(res);
       })
