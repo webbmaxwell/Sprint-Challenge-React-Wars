@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import Card from './components/CardComponents/Card.js';
+import Bio from './components/DataComponents/Bio.js';
 import Header from "./components/HeaderComponents/Header.js";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Card />
+      <Bio />
     </div>
   );
 }
