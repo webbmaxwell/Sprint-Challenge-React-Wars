@@ -26,13 +26,25 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+[ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+    React.js is a JavaScript framework that allows us to build and use applications in a web browser.
+
 - [ ] What does it mean to _think_ in react?
+
+    Thinking in react means making a (sometimes written) plan for the components we intend to build. It means thinking in terms of the components that make up a web page.
 
 - [ ] Describe state.
 
+    State is the temporary data that is held in the virtual DOM that can be manipulated through react.
+
 - [ ] Describe props.
 
+    Props are the custom properties that we can use to pass into components when they are rendered.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+    Side effects are additional functions we can use to carry out other tasks when state is updated. We use them by calling the useEffect method.
 
 ## Project Set Up
 
@@ -60,7 +72,7 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
+- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen.
 - [ ] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
 - [ ] Set the data you fetch to state.
 - [ ] Map over the list and render a component for each character on the page.
