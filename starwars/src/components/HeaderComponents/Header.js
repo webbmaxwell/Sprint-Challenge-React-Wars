@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
   return (
     <>
-      <h1>React Wars</h1>
+      <h1 className="header">React Wars</h1>
     </>
   )
 }

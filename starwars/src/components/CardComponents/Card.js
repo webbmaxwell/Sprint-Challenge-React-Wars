@@ -1,14 +1,21 @@
 import React from 'react';
+import styled from 'styled-components';
 import "./Card.css";
 
 function Card(props) {
 
-    return (
-      <div className="card">
-        <p><strong>Name:</strong>{props.name}</p>
-        <p><strong>Birth Year:</strong>{props.year}</p>
-      </div>
-    )
+  const Par = styled.p`
+    font-size 1.5rem;
+    color: white;
+    text-shadow: 0px 0px 1rem limegreen;
+  `
+
+  return (
+    <div className="card">
+      <Par><strong>Name:</strong>{props.name}</Par>
+      <Par><strong>Birth Year:</strong>{props.year}</Par>
+    </div>
+  )
 };
 
 export default Card;

@@ -20,10 +20,10 @@ function Bio() {
 
   return (
     <div>
-      {bio.map((info) => {
+      {bio.map((info, index) => {
         console.log(info);
         return (
-          <Card name={info.name} year={info.birth_year} />
+          <Card key={index} name={info.name} year={info.birth_year} />
         )
       })}
 
